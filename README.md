@@ -1,74 +1,72 @@
-# 👋 Hello Developers  
+# 🌩️ Nimbus
 
-Welcome to the **Next.js 15 + Tailwind CSS v4** project configured to run inside **Termux (Android)**.  
-This repo demonstrates how to set up and run Next.js on Android devices. 🚀  
-
----
-
-## 📦 Tech Stack
-- ⚡ **Next.js 15** – Modern React framework  
-- 🎨 **Tailwind CSS v4** – Utility-first styling  
-- 📱 **Termux (Android)** – Linux environment on mobile  
+Nimbus is a modern weather web app built with **Next.js** and powered by the **Open-Meteo API**.  
+It provides **real-time weather updates** and a **7-day forecast** in a clean, responsive interface.  
 
 ---
 
-## ⚠️ Important Notice  
-> This project includes a special dev dependency:  
-> 
-> ```bash
-> lightningcss.android-arm64.node
-> ```
-> 
-> ✅ Works only inside **Android Termux**  
-> ❌ Not compatible with Windows, Linux, or macOS  
+## 🚀 Features
+
+- 🌍 Search weather by city or location  
+- 🌡️ Current temperature, humidity, wind speed  
+- 📅 7-day forecast with min/max temps  
+- 🌓 Dark mode toggle  
+- 📱 Fully responsive (mobile, tablet, desktop)  
 
 ---
 
-## 🛠 Running on Other Platforms
-If you’re not on **Termux (Android)**, remove the dependency before running:
+## 🛠️ Built With
 
-```bash
-npm uninstall lightningcss.android-arm64.node
-```
+- [Next.js](https://nextjs.org/) – React framework  
+- [Open-Meteo API](https://open-meteo.com/) – free weather data  
+- [TailwindCSS](https://tailwindcss.com/) – modern styling  
+- [Vercel](https://vercel.com/) – deployment  
 
 ---
+
+## 📖 Project Journey
 
 <details>
-<summary>📌 Hosting Instructions (Click to Expand)</summary>
-
-### Step 1: Remove Android-only dependency  
-```bash
-npm uninstall lightningcss.android-arm64.node
-```
-
-### Step 2: Deploy Anywhere 🌍  
-Now you’re free to host your app on platforms like:
-- [Vercel](https://vercel.com/)  
-- [Netlify](https://www.netlify.com/)  
-- [Render](https://render.com/)  
-- Your own server 🚀  
-
+<summary>06/09/2025 – Started Project</summary>
+On 6<sup>th</sup> September, I started **Nimbus** by setting up a Next.js project  
+and adding theme providers.
 </details>
 
 ---
 
-## 🧑‍💻 Contribution  
-Want to make this project better? PRs are welcome! 💡  
+## ⚡ Getting Started
 
-1. Fork the repo  
-2. Create a new branch: `git checkout -b feature-name`  
-3. Commit changes: `git commit -m "Added feature XYZ"`  
-4. Push branch & open a PR  
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/mesanjeetk/Nimbus.git
+cd nimbus
+npm install
+npm run dev
+```
+
+Visit `http://localhost:3000` in your browser.  
 
 ---
 
-## 🌟 Show Your Support  
-If you found this useful:  
-⭐ **Star the repo** & spread the word!  
+## 📦 Deployment
+
+<!--Nimbus is deployed with [Vercel](https://vercel.com/).  -->
+<!--You can try the live demo here: **[Nimbus Live](https://nimbus.vercel.app/)** (replace with your link).  -->
 
 ---
 
-### 🔗 Quick Links  
-- 📖 [Next.js Docs](https://nextjs.org/docs)  
-- 🎨 [Tailwind Docs](https://tailwindcss.com/docs)  
-- 📱 [Termux Wiki](https://wiki.termux.com/wiki/Main_Page)  
+## 💡 Inspiration
+
+This project was built as part of the  
+[Frontend Mentor 30-Day Hackathon](https://www.frontendmentor.io/articles/introducing-the-frontend-mentor-30-day-hackathon).  
+The goal is to learn, build, and ship a polished product in 30 days.  
+
+---
+
+## 👨‍💻 Author
+
+- **Sanjeet Kumar** – [Frontend Mentor](https://www.frontendmentor.io) |
+[GitHub](https://github.com/mesanjeetk)  
+
+---
