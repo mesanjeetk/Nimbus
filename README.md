@@ -28,7 +28,7 @@ It provides **real-time weather updates** and a **7-day forecast** in a clean, r
 
 <details>
 <summary>06/09/2025 – Started Project</summary>
-On 6<sup>th</sup> September, I started **Nimbus** by setting up a Next.js project  
+On 6<sup>th</sup> September, I started <strong>Nimbus</strong> by setting up a Next.js project  
 and adding theme providers.
 </details>
 
